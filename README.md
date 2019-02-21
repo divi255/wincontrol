@@ -1,11 +1,11 @@
 Simple Windows remote control API service (python 3 + flask)
 ************************************************************
 
-I like when EVA ICS (altcch/eva3) automatically turns on my computer when I
-come to office and puts it to sleep when I go. I was too lazy to program this
-correctly in past and simply used telnet server on machine to let remote script
-login and execute sleep command. But I've upgraded my computer to Windows 10
-and found telnet server is no longer available.
+I like when EVA ICS (https://www.eva-ics.com) automatically turns on my
+computer when I come to office and puts it to sleep when I go. I was too lazy
+to program this correctly in past and simply used telnet server on machine to
+let remote script login and execute sleep command. But I've upgraded my
+computer to Windows 10 and found telnet server is no longer available.
 
 Then, as default MS Windows RPC is very complex, I've decided to write a simple
 python service to provide control API. The problem is it's not well documented
