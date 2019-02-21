@@ -77,8 +77,8 @@ Dealning with 1053 service error
 
 * Make sure python is in *PATH* for all users.
 
-* Make sure *pywintypesXX.dll* file is in PATH. If no - copy it to the root of
-  python folder (e.g. if you have python 3.7 installed in *c:\python37* - copy
+* Make sure *pywintypesXX.dll* file is in PATH. If no - copy it to the python
+  root folder (e.g. if you have python 3.7 installed in *c:\python37* - copy
   *pywintypes37.dll* from *c:\python37\Lib\site-packages\pywin32_system3* to
   *c:\python37*
 
