@@ -59,12 +59,18 @@ Has only a couple of functions:
   defined, *ok:true* if command is executed correctly or *ok:false* if exit
   code was not zero.
 
-E.g. by default, request *POST /command/sleep* will run
+Access key should be set in **X-Auth-Key** request header. Remote IP should
+match **hosts-allow** acl if defined.
+
+E.g. by default, request
+
+  curl -X POST -H x-auth-key:123 ip-of-windows-machine/command/sleep
+
+will run
 
   rundll32.exe powrprof.dll,SetSuspendState 0,1,0* command
 
-Access key should be set in **X-Auth-Key** request header. Remote IP should
-match **hosts-allow** acl if defined.
+and put the computer to sleep. Bingo! )
 
 Dealning with 1053 service error
 ================================
