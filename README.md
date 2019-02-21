@@ -55,7 +55,7 @@ Has only a couple of functions:
 
 * **GET /state** - returns *{ "ok": true }*
 
-* **POST /command/<cmd>** - executes command, returns 404 if command is not
+* **POST /command/\<cmd>** - executes command, returns 404 if command is not
   defined, *ok:true* if command is executed correctly or *ok:false* if exit
   code was not zero.
 
