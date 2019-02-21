@@ -63,9 +63,8 @@ E.g. by default, request *POST /command/sleep* will run
 
   rundll32.exe powrprof.dll,SetSuspendState 0,1,0* command
 
-
-Access key should be provided in **X-Auth-Key** request header. Remote IP
-should match **hosts-allow** acl if defined.
+Access key should be set in **X-Auth-Key** request header. Remote IP should
+match **hosts-allow** acl if defined.
 
 Dealning with 1053 service error
 ================================
