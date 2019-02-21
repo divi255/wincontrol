@@ -68,7 +68,7 @@ E.g. by default, request
 
 will run
 
-    rundll32.exe powrprof.dll,SetSuspendState 0,1,0* command
+    rundll32.exe powrprof.dll,SetSuspendState 0,1,0
 
 and put the computer to sleep. Bingo! )
 
