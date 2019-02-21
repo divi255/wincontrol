@@ -1,0 +1,9 @@
+access-key: 123
+listen: 127.0.0.1:9001
+hosts-allow:
+  - 127.0.0.1
+  - 192.168.1.0/24
+command:
+  sleep: rundll32.exe powrprof.dll,SetSuspendState 0,1,0
+  shutdown: shutdown /s /t 0
+  reboot: shutdown /r /t 0
