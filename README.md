@@ -46,7 +46,7 @@ Installing required libraries
 
 Execute:
 
-  pip install pywin32 flask pyyaml netaddr
+    pip install pywin32 flask pyyaml netaddr
 
 API
 ===
@@ -64,11 +64,11 @@ match **hosts-allow** acl if defined.
 
 E.g. by default, request
 
-  curl -X POST -H x-auth-key:123 ip-of-windows-machine/command/sleep
+    curl -X POST -H x-auth-key:123 ip-of-windows-machine/command/sleep
 
 will run
 
-  rundll32.exe powrprof.dll,SetSuspendState 0,1,0* command
+    rundll32.exe powrprof.dll,SetSuspendState 0,1,0* command
 
 and put the computer to sleep. Bingo! )
 
