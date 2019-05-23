@@ -18,17 +18,17 @@ So, let's go, we have 2 files:
 wincontrol.py
 =============
 
-If started with "app" param, launches flask application, otherwise starts to
+If started with "app" option, launches flask application, otherwise starts to
 win32serviceutil params handler.
 
-Params:
+Options:
 
 * **app** - launch web application
 
-**install**  - install a service (SimpleWinControlAPI / can be found as Windows
+* **install**  - install a service (SimpleWinControlAPI / can be found as Windows
   Remote Control Simple API in service list)
 
-**remove** - remove a service
+* **remove** - remove a service
 
 (run *wincontrol.py ---help* for all available) 
 
